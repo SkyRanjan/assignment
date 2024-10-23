@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <button class="btn btn-primary">
+    <div class="text-center">
+    <button class="btn btn-primary text-center">
         Inbox
         <span class="badge bg-danger rounded-top">99+</span>
     </button>
+    </div>
+    <div class="collapse">
+        <button data-bs-toggle = "collapse" data-bs-target="#myModal" class="btn btn-primary">Show details</button>
+        <div class="collapse" id="myModal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque laborum optio ipsam sed omnis quo, sapiente ex hic aspernatur saepe ut eos totam eum repudiandae molestiae earum magnam voluptatibus.</div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="/js/bootstrap.js"></script>
 </body>
